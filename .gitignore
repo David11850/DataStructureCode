@@ -1,0 +1,31 @@
+# --- Visual Studio 临时文件夹 ---
+.vs/
+x64/
+Debug/
+Release/
+
+# --- 每个项目内部的构建输出目录 ---
+*/x64/
+*/Debug/
+*/Release/
+
+# --- 编译产生的文件 (C++) ---
+*.obj
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.exe
+*.recipe
+*.idb
+*.tlog
+*.lastbuildstate
+
+# --- 日志和临时文件 ---
+*.log
+*.VC.db
+*.VC.opendb
+*.FileListAbsolute.txt
+
+# --- 用户特定设置 (通常不建议上传) ---
+*.vcxproj.user
